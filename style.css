@@ -10,7 +10,7 @@ h1 {
 }
 
 h2 {
-	font-size: 22pt; 
+	font-size: 22pt;
 	text-decoration: underline; /* Underlines the text. Try "overline", "line-through", or some combo! */
 }
 
@@ -36,10 +36,10 @@ p {
 
 .image-container {
 	display: inline-block; /* Each element with the "image-container" class should be displayed side-by-side, but should also be interpreted as a separate block item */
-	padding-left: 40px; 
+	padding-left: 40px;
 }
 
-/* This CSS selector is selecting "img" tags that are inside of the element with the 
+/* This CSS selector is selecting "img" tags that are inside of the element with the
    "image-container" class */
 .image-container img {
 	margin-top: 8px;
@@ -47,7 +47,7 @@ p {
 	width: auto;
 	border-width: 3.5px;
 	border-style: solid;
-	border-color: black;	
+	border-color: black;
 	/* The three above properties can also be written in one line- "border: 3.5px solid black" */
 	border-radius: 2px;
 }
@@ -76,13 +76,13 @@ p {
 	padding-left: 0px; /* Gets rid of the indentation associated with list items */
 }
 
-/* This CSS selector is selecting "li" tags that are inside of the element with the 
+/* This CSS selector is selecting "li" tags that are inside of the element with the
    "contact-icons" id */
 #contact-icons li {
 	display: inline; /* Shows all the icons in-line rather than all on separate lines */
 }
 
-/* This CSS selector is selecting img tags that are inside of the element with the 
+/* This CSS selector is selecting img tags that are inside of the element with the
    "contact-icons" id */
 #contact-icons img {
 	width: 30px;
